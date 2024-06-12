@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <input type="text" placeholder="Seu nome" />
+        <br />
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" />
+        <br />
+        <input type="tel" placeholder="Seu telefone" />
+        <br />
+        <input type="number" max="10" min="2" step="2"/><!--max para limitar o número até o número x/ min para que número inicial seja um número x / step: Para o quanto irá acrescentar o número -->
+        <br />
+        <input type="file" /> <!--Para inserir arquivos--> <br/>
+        <input type="color" /><!--Selecionar cores--> <br/>
+        <input type="checkbox" id="checkbox-termos"><label for="checkbox-termos">Aceito os termos</label> <br/>
+        <p>
+            Qual sua cor favorita?
+        </p>
+        <input id="cor-vermela" name="cor-favorita" type="radio"> <label for="cor-vermelha">Vermelho</label><!--com "type=radio" é possível criar seleções circular de apenas uma ou mais opções-->
+        <input id="cor-azul" name="cor-favorita" type="radio"> <label for="cor-azul">Azul</label>
+        <input id="cor-verde" name="cor-favorita" type="radio"> <label for="cor-verde">Verde</label>
+        <br />
+        <label >Qual seu filme favorito</label>
+        <select ><!--com "select/option" é possível criar um menu de seleção onde conseguimos escolher uma opção, caso seja necessário é possível adicionar "multiple ao lado para que seja possível escolher mais de uma."-->
+            <option>Fime A</option>
+            <option>Filme B</option>
+            <option>Filme C</option>
+        </select>
+        <br />
+        <textarea></textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button> 
+        <br /> <br/>
+        <label for="usuario">Usuário:</label>
+        <input id="usuario" type="text" /> <br/>
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password"/> <br />
+    </form>
+</body>
+</html>
