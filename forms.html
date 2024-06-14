@@ -8,18 +8,18 @@
 <body>
     <h1>Formulários</h1>
     <form>
-        <input type="text" placeholder="Seu nome" />
+        <input type="text" placeholder="Seu nome" /> <!--paceholder = Atributo que torna possível a declaração visível dentro da barra do formulário-->
         <br />
         <label for="email">Seu e-mail</label>
-        <input id="email" type="email" />
+        <input id="email" type="email" /><!-- input email = declara que espaço do formulário seja exclusivo para e-mail-->
         <br />
-        <input type="tel" placeholder="Seu telefone" />
+        <input type="tel" placeholder="Seu telefone" /><!--input type="tel" = Atributo que declara que espaço do formulário seja exclusivo para número de telefone-->
         <br />
         <input type="number" max="10" min="2" step="2"/><!--max para limitar o número até o número x/ min para que número inicial seja um número x / step: Para o quanto irá acrescentar o número -->
         <br />
         <input type="file" /> <!--Para inserir arquivos--> <br/>
         <input type="color" /><!--Selecionar cores--> <br/>
-        <input type="checkbox" id="checkbox-termos"><label for="checkbox-termos">Aceito os termos</label> <br/>
+        <input type="checkbox" id="checkbox-termos"><label for="checkbox-termos">Aceito os termos</label> <br/> <!-- checkbox é usado para abrir uma caixa obrigatória ou não para confirmação de termos -->
         <p>
             Qual sua cor favorita?
         </p>
@@ -35,17 +35,17 @@
         </select>
         <br />
         <textarea></textarea>
-        <button type="submit">
+        <button type="submit"> <!--button submit = botão para Enviar-->
             Enviar
         </button>
-        <button type="reset">
+        <button type="reset"> <!--button reset = botão para apagar informações de um formulário-->
             Limpar
         </button> 
         <br /> <br/>
         <label for="usuario">Usuário:</label>
         <input id="usuario" type="text" /> <br/>
         <label for="senha">Senha:</label>
-        <input id="senha" type="password"/> <br />
+        <input id="senha" type="password"/> <br /><!--input type="password" = Atributo que torna possível mascarar os caractéres de um formulário ex: senhas-->
     </form>
 </body>
 </html>
